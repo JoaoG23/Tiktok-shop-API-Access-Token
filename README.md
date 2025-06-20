@@ -11,10 +11,14 @@ TIKTOK_REDIRECT_URI=seu_redirect_uri
 ```
 
 Configure as credenciais no código:
+
 App Key: Identificador único da aplicação.
 App Secret: Chave secreta usada para autenticação.
+
 Execute o servidor Flask com **python tutorial.py**
+
 Acesse a URL gerada pelo servidor e siga o fluxo de autenticação:
+
 Você será redirecionado para a página de login do Tiktok Shop.
 Após autenticar, será redirecionado para a URL configurada com o código de autorização.
 O servidor trocará o código pelo token de acesso.
